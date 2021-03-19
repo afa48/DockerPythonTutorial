@@ -4,4 +4,4 @@ ADD src /src
 
 RUN pip install pystrich
 
-CMD [ "python", "./src/CalculatorTests.py" ]
+CMD [ "python", "./my_script.py" ]
