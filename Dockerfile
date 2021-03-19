@@ -1,6 +1,6 @@
 FROM python:3
 
-ADD src /src
+ADD src/my_script.py /
 
 RUN pip install pystrich
 
